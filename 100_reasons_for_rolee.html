@@ -3,59 +3,81 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="theme-color" content="#fff3f5">
-<title>100 Reasons — For My Rolee ❤️</title>
+<meta name="theme-color" content="#fff6f2">
+<meta name="description" content="A little collection of love notes and 100 reasons why Aryan loves Rolee.">
+<title>For Rolee, With All My Love ♡</title>
 <style>
-:root{--pink:#f7b8c8;--rose:#d95f82;--ink:#49333d;--cream:#fffaf8;--lilac:#eee7ff}
+:root{--rose:#ad526d;--rose-dark:#843b56;--pink:#f4cbd2;--blush:#fff0ee;--paper:#fffaf2;--ink:#543c42;--muted:#987b80;--gold:#c49a61;--lilac:#eee8f5;--shadow:0 18px 55px #75445212}
 *{box-sizing:border-box}
 html{scroll-behavior:smooth}
-body{margin:0;background:radial-gradient(circle at 10% 10%,#ffe2e9,transparent 30%),radial-gradient(circle at 90% 25%,#eee7ff,transparent 28%),var(--cream);color:var(--ink);font-family:Georgia,'Times New Roman',serif}
-main{width:min(920px,92%);margin:auto;padding:34px 0 70px}
-.hero{text-align:center;padding:55px 20px 42px;border:1px solid #f2d8df;border-radius:28px;background:#ffffffbd;box-shadow:0 15px 45px #a85b7112;position:relative;overflow:hidden}
-.kicker{font:700 11px/1.4 Arial,sans-serif;letter-spacing:3px;text-transform:uppercase;color:var(--rose)}
-h1{font-size:clamp(38px,8vw,72px);line-height:1.02;margin:18px 0 12px;color:#a84468}
-.subtitle{font-size:clamp(16px,3vw,20px);line-height:1.6;max-width:650px;margin:0 auto;color:#72545f}
-.hero .tiny{font:13px Arial,sans-serif;color:#a77b89;margin-top:22px}
-button{border:0;background:var(--rose);color:white;padding:15px 24px;border-radius:999px;font-weight:700;font-size:15px;cursor:pointer;box-shadow:0 8px 20px #d95f8235;transition:.2s}
-button:hover{transform:translateY(-2px);background:#c94d73}
-#start{margin-top:27px}
-.section-head{text-align:center;margin:54px 0 24px}
-.section-head h2{font-size:clamp(27px,5vw,39px);color:#a84468;margin:0 0 8px}
-.section-head p{font:14px/1.6 Arial,sans-serif;color:#967783;margin:0}
-.progress-wrap{max-width:520px;margin:22px auto 0;background:#f6e2e8;height:8px;border-radius:20px;overflow:hidden}
-#progress{height:100%;width:0;background:linear-gradient(90deg,#e98ca8,#b69ce8);transition:width .35s}
-#count{font:12px Arial,sans-serif;color:#a77b89;margin-top:8px}
-.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:13px}
-.reason{background:#fff;border:1px solid #f3dce3;border-radius:18px;padding:19px 18px;min-height:116px;box-shadow:0 7px 22px #a85b7109;opacity:0;transform:translateY(12px);animation:appear .45s forwards}
-.reason .num{font:700 11px Arial,sans-serif;letter-spacing:1.5px;color:#c77b92}
-.reason p{font-size:17px;line-height:1.48;margin:9px 0 0}
+body{margin:0;color:var(--ink);font-family:Georgia,'Times New Roman',serif;background:radial-gradient(ellipse at 8% 8%,#f9dce2 0,transparent 32%),radial-gradient(ellipse at 92% 20%,#ece5f3 0,transparent 28%),linear-gradient(180deg,#fffaf7,#fff6f1 62%,#fffaf7);min-height:100vh}
+body:before{content:'♡';position:fixed;right:5vw;bottom:2vh;font-size:clamp(100px,24vw,280px);line-height:1;color:#d994a21a;pointer-events:none;z-index:-1}
+main{width:min(980px,92%);margin:auto;padding:28px 0 64px}
+.hero{position:relative;text-align:center;padding:clamp(42px,8vw,82px) 22px 54px;border:1px solid #edd8d6;border-radius:34px;background:linear-gradient(145deg,#fffdf9ed,#fff4f3ed);box-shadow:var(--shadow);overflow:hidden}
+.hero:before,.hero:after{content:'✦';position:absolute;color:#c49a6180;font-size:22px}.hero:before{top:26px;left:8%}.hero:after{bottom:24px;right:9%}
+.kicker{font:700 10px/1.5 Arial,sans-serif;letter-spacing:3.3px;text-transform:uppercase;color:var(--gold)}
+h1{font-size:clamp(43px,9vw,82px);font-weight:400;line-height:.98;letter-spacing:-2px;margin:20px 0 16px;color:var(--rose-dark)}
+h1 span{font-style:italic;color:var(--rose)}
+.subtitle{font-size:clamp(16px,3vw,20px);line-height:1.75;max-width:660px;margin:0 auto;color:#735960}
+.hero .tiny{font:12px/1.6 Arial,sans-serif;letter-spacing:.5px;color:var(--muted);margin-top:20px}
+button{font:700 14px Arial,sans-serif;cursor:pointer}
+button:focus-visible{outline:3px solid #bd7188;outline-offset:4px}
+.primary{margin-top:26px;border:0;border-radius:999px;padding:15px 25px;color:#fff;background:linear-gradient(135deg,#bd6c82,#98445f);box-shadow:0 9px 22px #98445f30;transition:transform .2s,box-shadow .2s}
+.primary:hover{transform:translateY(-2px);box-shadow:0 12px 26px #98445f42}
+.section-head{text-align:center;margin:58px 0 25px}
+.eyebrow{font:700 10px Arial,sans-serif;letter-spacing:2.5px;text-transform:uppercase;color:var(--gold)}
+.section-head h2,.note h2{font-size:clamp(29px,5vw,43px);font-weight:400;color:var(--rose-dark);margin:10px 0}
+.section-head p{font:14px/1.7 Arial,sans-serif;color:var(--muted);margin:0}
+.progress-wrap{max-width:480px;height:7px;margin:21px auto 0;border-radius:20px;background:#f0dfe0;overflow:hidden}
+#progress{height:100%;width:0;background:linear-gradient(90deg,#d88998,#c49a61);transition:width .5s}
+#count{font:12px Arial,sans-serif;color:var(--muted);margin-top:9px}
+.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}
+.reason{width:100%;text-align:left;color:var(--ink);background:linear-gradient(145deg,#fffefa,#fff6f3);border:1px solid #efdfda;border-radius:20px;padding:19px 20px;min-height:145px;box-shadow:0 8px 24px #7544520a;opacity:0;transform:translateY(12px);animation:appear .5s forwards;transition:transform .2s,border-color .2s,box-shadow .2s}
+.reason:hover{transform:translateY(-3px);border-color:#dbaeba;box-shadow:0 12px 26px #75445216}
+.reason .num{display:flex;align-items:center;justify-content:space-between;font:700 10px Arial,sans-serif;letter-spacing:1.7px;color:#b27678}
+.reason .seal{font-size:17px;color:var(--rose)}
+.reason .thought{display:block;font:16px/1.55 Georgia,'Times New Roman',serif;margin:11px 0 13px}
+.reason .open-hint{font:10px Arial,sans-serif;letter-spacing:1px;text-transform:uppercase;color:#a27c78}
 @keyframes appear{to{opacity:1;transform:translateY(0)}}
-.note{margin-top:65px;padding:clamp(24px,5vw,48px);border-radius:26px;background:linear-gradient(135deg,#fff0f3,#f5efff);border:1px solid #f0dce7;box-shadow:0 15px 45px #a85b7110}
-.note h2{text-align:center;color:#a84468;font-size:clamp(29px,5vw,43px);margin:0 0 25px}
-.note p{font-size:17px;line-height:1.85;margin:0 0 16px}
-.signature{text-align:right;color:#a84468;font-size:22px;font-style:italic;margin-top:26px}
-footer{text-align:center;font:12px Arial,sans-serif;color:#b18d99;margin-top:35px}
-.heart{color:#d95f82}
-@media(max-width:600px){main{padding-top:16px}.hero{padding:42px 17px}.grid{grid-template-columns:1fr;gap:10px}.reason{min-height:auto;padding:17px}.reason p{font-size:16px}.note p{font-size:16px}}
-@media(prefers-reduced-motion:reduce){*{scroll-behavior:auto!important;animation:none!important;transition:none!important}.reason{opacity:1;transform:none}}
+.note{position:relative;margin-top:64px;padding:clamp(25px,6vw,58px);border:1px solid #ecd8d6;border-radius:30px;background:linear-gradient(145deg,#fff8f1,#fff0f1 65%,#f7f0f8);box-shadow:var(--shadow)}
+.note:before{content:'For you, always';display:block;text-align:center;font:italic 15px Georgia,serif;color:var(--gold);letter-spacing:1px}
+.note h2{text-align:center;margin:12px 0 25px}
+.note p{font-size:16px;line-height:1.9;margin:0 0 16px}
+.signature{text-align:right;color:var(--rose-dark);font-size:22px;font-style:italic;margin-top:28px!important}
+footer{text-align:center;font:11px/1.7 Arial,sans-serif;letter-spacing:.4px;color:#a88b8c;margin-top:30px}
+.heart{color:var(--rose)}
+dialog{width:min(560px,calc(100% - 30px));max-height:85vh;padding:0;border:1px solid #e8cfcb;border-radius:26px;background:var(--paper);color:var(--ink);box-shadow:0 24px 90px #47263145;overflow:auto}
+dialog::backdrop{background:#37222d88;backdrop-filter:blur(4px)}
+.letter{position:relative;padding:clamp(28px,6vw,48px);background:radial-gradient(ellipse at 100% 0,#f6e5e6 0,transparent 42%),var(--paper)}
+.letter-top{text-align:center;color:var(--gold);font:10px Arial,sans-serif;letter-spacing:2.4px;text-transform:uppercase}
+.letter h2{text-align:center;color:var(--rose-dark);font-size:clamp(30px,7vw,42px);font-weight:400;margin:15px 0 22px}
+.letter h2 em{font-weight:400}
+.letter-reason{font-size:17px;line-height:1.6;color:var(--rose-dark);text-align:center;padding:17px 18px;margin:0 0 22px;border-top:1px solid #ecd6d2;border-bottom:1px solid #ecd6d2}
+.letter-copy{font-size:16px;line-height:1.85}
+.letter-sign{font-size:20px;font-style:italic;color:var(--rose);text-align:right;margin:24px 0 0}
+.close-letter{display:block;margin:27px auto 0;background:transparent;border:1px solid #dcbcc0;border-radius:999px;color:var(--rose-dark);padding:11px 19px}
+.close-letter:hover{background:#fff0ee}
+@media(max-width:620px){main{padding-top:14px}.hero{border-radius:26px}.grid{grid-template-columns:1fr;gap:10px}.reason{min-height:0;padding:17px 18px}.reason .thought{font-size:16px}.section-head{margin-top:46px}.note p{font-size:15px}}
+@media(prefers-reduced-motion:reduce){*,*::before,*::after{scroll-behavior:auto!important;animation:none!important;transition:none!important}.reason{opacity:1;transform:none}}
 </style>
 </head>
 <body>
 <main>
   <section class="hero">
-    <div class="kicker">A very serious investigation (not really)</div>
-    <h1>100 Reasons<br>Why I Love You</h1>
-    <p class="subtitle">Meri jaan bol rahi hai ki I don't love her… PR let me present my side of the case. 😭<br>Here are 100 reasons why I am completely, ridiculously in love with my Rolee.</p>
-    <div class="tiny">Evidence collected with love, overthinking, and absolutely no chill.</div>
-    <button id="start">Okay, prove it to me ♡</button>
+    <div class="kicker">A little love, written just for you</div>
+    <h1>My heart keeps<br><span>choosing you</span></h1>
+    <p class="subtitle">Meri jaan, you said I don't love you enough… so I made you a hundred little reminders. Every reason has a letter waiting inside. Open them whenever you need a little extra love. ♡</p>
+    <div class="tiny">A hundred reasons. A hundred tiny love notes. One very special Rolee.</div>
+    <button class="primary" id="start">Open your love notes ♡</button>
   </section>
 
-  <section id="reasons-section">
+  <section id="reasons-section" aria-labelledby="reasons-heading">
     <div class="section-head">
-      <h2>Exhibit A: You. And then you. And again, you. ♡</h2>
-      <p>100 reasons. And honestly, this list could've been much longer.</p>
-      <div class="progress-wrap"><div id="progress"></div></div>
-      <div id="count">0 / 100 reasons revealed</div>
+      <div class="eyebrow">A collection from my heart</div>
+      <h2 id="reasons-heading">Little reasons, big love</h2>
+      <p>Tap any card to open the letter tucked inside. Take your time, meri jaan.</p>
+      <div class="progress-wrap" role="progressbar" aria-label="Love notes opened" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0"><div id="progress"></div></div>
+      <div id="count" aria-live="polite">0 / 100 little letters opened</div>
     </div>
     <div class="grid" id="reasons"></div>
   </section>
@@ -70,8 +92,20 @@ footer{text-align:center;font:12px Arial,sans-serif;color:#b18d99;margin-top:35p
     <p>So, in case you ever forget: you are loved. Not because of these 100 reasons alone, but because of the person you are and all the little things that make you <em>you</em>. I hope I get to be your favourite person for a very, very long time.</p>
     <p class="signature">I love you, jaan. Always yours, Aryan ♡</p>
   </section>
-  <footer>Made for Rolee, with a little too much love and a lot of feelings. <span class="heart">♥</span></footer>
+  <footer>Made for Rolee, with all my heart <span class="heart">♥</span><br>One hundred little letters, and still not enough to say it all.</footer>
 </main>
+
+<dialog id="letter-dialog" aria-labelledby="letter-title">
+  <article class="letter">
+    <div class="letter-top">A little letter, sealed with love</div>
+    <h2 id="letter-title">Dear Rolee,</h2>
+    <p class="letter-reason" id="letter-reason"></p>
+    <p class="letter-copy" id="letter-copy"></p>
+    <p class="letter-sign">All my love,<br>Aryan ♡</p>
+    <button class="close-letter" id="close-letter">Fold this letter away ♡</button>
+  </article>
+</dialog>
+
 <script>
 const reasons = [
 "Uski hasi. Bas. Case closed. The sound deserves its own award.",
@@ -175,26 +209,67 @@ const reasons = [
 "Because I choose her — with care, respect, patience, and love.",
 "Because she's Rolee. And that one reason is already enough for a hundred more. ❤️"
 ];
+
+const letterLines = [
+  "I hope you know that even the smallest things about you stay with me. They find their way into my thoughts and make an ordinary day feel warmer. Thank you for being exactly who you are.",
+  "If I could keep one little piece of happiness close, it would be a moment like this with you. You make my heart feel at home, and I'm grateful for every memory we get to call ours.",
+  "You never have to be anyone other than yourself to be loved by me. I love the real you: your softness, your spark, your silly moments, and every little thing that makes you Rolee.",
+  "I want to keep showing up for you with patience, kindness, and care. You deserve a love that feels safe and gentle, and I hope my actions keep reminding you that your heart matters to me.",
+  "Distance and busy days can't make you less special to me. I carry you in the little moments: in things I want to tell you, songs that remind me of you, and all the times I wish you were beside me.",
+  "When I think about the future, I hope it has lots of ordinary moments with you: laughing, talking, sharing our days, and making memories from the simplest things. Those would be precious to me.",
+  "You make me want to grow into someone who loves you better—not just with sweet words, but by listening, learning, respecting your feelings, and being thoughtful in the ways that count.",
+  "Thank you for letting me know you, little by little. I treasure the stories, the jokes, the quiet moments, and all the parts of you that make being close to you feel so special.",
+  "I hope this note gives you a tiny smile. If I were there, I'd give you the warmest hug and remind you that you are appreciated, admired, and loved for being wonderfully you.",
+  "One note could never hold everything I feel, but here's the truth I want you to keep: I choose to care for you with an open heart, and I never want to take your trust or your kindness for granted."
+];
+
 const grid=document.getElementById('reasons');
 const progress=document.getElementById('progress');
+const progressWrap=document.querySelector('.progress-wrap');
 const count=document.getElementById('count');
-let shown=0;
+const dialog=document.getElementById('letter-dialog');
+const opened=new Set();
+let rendered=false;
+
+function openLetter(index){
+  const number=index+1;
+  document.getElementById('letter-title').textContent='Dear Rolee,';
+  document.getElementById('letter-reason').textContent='Reason '+String(number).padStart(2,'0')+': '+reasons[index];
+  document.getElementById('letter-copy').textContent=letterLines[index%letterLines.length];
+  if(!opened.has(index)){
+    opened.add(index);
+    const amount=opened.size;
+    progress.style.width=(amount/reasons.length*100)+'%';
+    progressWrap.setAttribute('aria-valuenow',String(amount));
+    count.textContent=amount+' / '+reasons.length+' little letters opened'+(amount===reasons.length?' — every one, all yours ♡':'');
+    const card=grid.children[index];
+    card.setAttribute('aria-label','Reopen letter '+number+': '+reasons[index]);
+    card.querySelector('.seal').textContent='♥';
+  }
+  dialog.showModal();
+}
+
 function revealAll(){
-  if(shown>0){document.getElementById('reasons-section').scrollIntoView({behavior:'smooth'});return;}
-  reasons.forEach((reason,i)=>{
-    const card=document.createElement('article');
-    card.className='reason';
-    card.style.animationDelay=(i*0.025)+'s';
-    card.innerHTML='<div class="num">REASON '+String(i+1).padStart(2,'0')+'</div><p></p>';
-    card.querySelector('p').textContent=reason;
-    grid.appendChild(card);
-  });
-  shown=100;
-  progress.style.width='100%';
-  count.textContent='100 / 100 reasons revealed — and still counting, obviously.';
+  if(!rendered){
+    reasons.forEach((reason,index)=>{
+      const card=document.createElement('button');
+      card.type='button';
+      card.className='reason';
+      card.style.animationDelay=(index*.018)+'s';
+      card.setAttribute('aria-label','Open letter '+(index+1)+': '+reason);
+      card.innerHTML='<span class="num">LOVE NOTE '+String(index+1).padStart(2,'0')+'<span class="seal" aria-hidden="true">♡</span></span><span class="thought"></span><span class="open-hint">Tap to open your letter →</span>';
+      card.querySelector('.thought').textContent=reason;
+      card.addEventListener('click',()=>openLetter(index));
+      grid.appendChild(card);
+    });
+    rendered=true;
+  }
   document.getElementById('reasons-section').scrollIntoView({behavior:'smooth'});
 }
+
 document.getElementById('start').addEventListener('click',revealAll);
+document.getElementById('close-letter').addEventListener('click',()=>dialog.close());
+dialog.addEventListener('click',event=>{if(event.target===dialog)dialog.close();});
 </script>
 </body>
 </html>
